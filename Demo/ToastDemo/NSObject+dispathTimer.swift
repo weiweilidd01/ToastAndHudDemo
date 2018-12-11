@@ -32,7 +32,7 @@ extension NSObject {
     /// - Parameters:
     ///   - timeInterval: 时间间隔
     ///   - handler: 每次时间间隔的回调
-    static func dispathTimer(timeInterval: Double = 1.0, handler:@escaping (DispatchSourceTimer?)->()) {
+    @discardableResult static func dispathTimer(timeInterval: Double = 1.0, handler:@escaping (DispatchSourceTimer?)->()) -> DispatchSourceTimer {
         let timer = DispatchSource.makeTimerSource(flags: [], queue: DispatchQueue.main)
         timer.schedule(deadline: .now(), repeating: timeInterval)
         timer.setEventHandler {
@@ -54,12 +54,14 @@ extension NSObject {
                 }
             })
         }
+        
+        return timer
     }
 }
 
 
 /* 使用demo
- NSObject.countDownTimer(timeInterval: 1) {[weak self] (timer) in
+ NSObject.dispathTimer(timeInterval: 1) {[weak self] (timer) in
     print("~~~~~~~~\(String(describing: self?.total))~~~~~~~~~~~~")
      guard let strongSelf = self else {
         timer?.cancel()

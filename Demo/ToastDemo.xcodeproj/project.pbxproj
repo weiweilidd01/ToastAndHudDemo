@@ -23,7 +23,7 @@
 		CEE2250321BE6A9F0038DAF3 /* ToastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2250221BE6A9E0038DAF3 /* ToastVC.swift */; };
 		CEE2250621BE72E10038DAF3 /* Hud.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2250521BE72E10038DAF3 /* Hud.swift */; };
 		CEE2250821BE73A80038DAF3 /* HudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2250721BE73A80038DAF3 /* HudVC.swift */; };
-		CEE2250A21BF51C30038DAF3 /* NSObject+CountDownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2250921BF51C30038DAF3 /* NSObject+CountDownTimer.swift */; };
+		CEE2250A21BF51C30038DAF3 /* NSObject+dispathTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2250921BF51C30038DAF3 /* NSObject+dispathTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,7 @@
 		CEE2250221BE6A9E0038DAF3 /* ToastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastVC.swift; sourceTree = "<group>"; };
 		CEE2250521BE72E10038DAF3 /* Hud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hud.swift; sourceTree = "<group>"; };
 		CEE2250721BE73A80038DAF3 /* HudVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudVC.swift; sourceTree = "<group>"; };
-		CEE2250921BF51C30038DAF3 /* NSObject+CountDownTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+CountDownTimer.swift"; sourceTree = "<group>"; };
+		CEE2250921BF51C30038DAF3 /* NSObject+dispathTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+dispathTimer.swift"; sourceTree = "<group>"; };
 		DB8525A7F51BB5D100DC44A2 /* Pods-ToastDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToastDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToastDemo/Pods-ToastDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,7 @@
 		CEE224C721BE6A010038DAF3 /* ToastDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CEE2250921BF51C30038DAF3 /* NSObject+CountDownTimer.swift */,
+				CEE2250921BF51C30038DAF3 /* NSObject+dispathTimer.swift */,
 				CEE2250421BE72E10038DAF3 /* Hud */,
 				CEE224FD21BE6A830038DAF3 /* Sources */,
 				CEE224F621BE6A670038DAF3 /* Toast */,
@@ -387,7 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE2250821BE73A80038DAF3 /* HudVC.swift in Sources */,
-				CEE2250A21BF51C30038DAF3 /* NSObject+CountDownTimer.swift in Sources */,
+				CEE2250A21BF51C30038DAF3 /* NSObject+dispathTimer.swift in Sources */,
 				CEE2250321BE6A9F0038DAF3 /* ToastVC.swift in Sources */,
 				CEE224FA21BE6A670038DAF3 /* SToast.swift in Sources */,
 				CEE224FB21BE6A670038DAF3 /* EBGifTool.swift in Sources */,
